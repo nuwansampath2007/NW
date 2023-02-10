@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { DevExtremeModule } from 'devextreme-angular';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -14,8 +15,9 @@ import { DevExtremeModule } from 'devextreme-angular';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
-    DevExtremeModule
+    DevExtremeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

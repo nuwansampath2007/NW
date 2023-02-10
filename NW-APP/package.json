@@ -18,6 +18,8 @@
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
+    "@fontsource/montserrat": "^4.5.14",
+    "bootstrap": "^5.3.0-alpha1",
     "devextreme": "^22.2.4",
     "devextreme-angular": "^22.2.4",
     "devextreme-schematics": "^1.5.1",
